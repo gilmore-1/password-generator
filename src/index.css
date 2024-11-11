@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .strength-indicator-to-weak {
+    @apply text-xs font-bold text-warning
+  }
+  .strength-indicator-weak {
+    @apply text-xs font-bold text-warning
+  }
+  .strength-indicator-medium {
+    @apply text-xs font-bold text-accent
+  }
+  .strength-indicator-strong {
+    @apply text-xs font-bold text-success
+  }
+  .button-idle {
+    @apply bg-primary text-textMain py-2 px-4 rounded-md hover:bg-secondar
+  }
+  .button-hover {
+    @apply bg-secondary text-textMain py-2 px-4 rounded-md
+  }
+  .heading-l {
+    @apply text-3xl font-bold text-[#E6E5EA] font-mono tracking-normal leading-normal;
+  }
+  .heading-m {
+    @apply text-2xl font-bold text-[#E6E5EA] font-mono tracking-normal leading-normal;
+  }
+}
