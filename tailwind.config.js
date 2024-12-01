@@ -19,6 +19,10 @@ export default {
       fontFamily: {
         mono: ['JetBrains Mono', 'monospace'],
       },
+      container: {
+        center: true,
+        padding: '1rem',
+      },
     },
   },
   plugins: [],

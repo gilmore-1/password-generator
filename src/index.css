@@ -29,4 +29,17 @@
   .heading-m {
     @apply text-2xl font-bold text-[#E6E5EA] font-mono tracking-normal leading-normal;
   }
+
+}
+@layer base {
+  body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #1A1A1A;
+    color: #E6E5EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
 }
